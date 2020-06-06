@@ -1,112 +1,118 @@
 <p align="center">
-  <img src="https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/images/128.png" alt="Udemy Translate" height="128" width="128" />
+  <img src="https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/v2.0.0/example/ball-logo.png" alt="Udemy
+   Translate
+  " height="128" width="128" />
 </p>
 
 <h4 align="center">
   Udemy Translate
 </h4>
 
-[![Build Status](https://img.shields.io/badge/README-中文-yellow.svg)](README_zh.md)
-## Usage
+[![Build Status](https://img.shields.io/badge/README-English-yellow.svg)](README_en.md)
+![GitHub All Releases](https://img.shields.io/github/downloads/ChenYCL/chrome-extension-udemy-translate/total)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/ChenYCL/chrome-extension-udemy-translate/master)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-Translate Udemy/netflix/lynda Media  subtitles into Chinese or English, **it also support other language subtitles into Chinese now**
+## 关于本插件
 
-## Panel config
+翻译视频站，提供双字幕，支持 Udemy,Disneyplus,lynda,amazon,hulu,primevideo,Netflix 等站，翻译字幕为中文，英文，日文等。
 
-<font color=green size=7>If the default configuration traffic expires,please register via the link below</font>
+## 使用说明
 
-<div align=center><img width="100%" height="600" src="https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/config.png"/></div>
+<font color=green size=7>请先在下方链接注册相应的密钥，id</font>
 
-Register links:
+<div align=center><img width="60%" height="60%" src="https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/v2.0.0/example/config.png"/></div>
 
-[Youdao](https://ai.youdao.com/index.s)
-[Baidu](https://fanyi-api.baidu.com/api/trans/product/desktop)
+<div align=center><img width="30%" height="30%" src="https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/v2.0.0/example/popup.png"/></div>
+
+注册地址:
+
+[有道智云翻译，通用字幕翻译选择](https://ai.youdao.com/index.s)
+
+[百度翻译](https://fanyi-api.baidu.com/api/trans/product/desktop)
+
 [Yandex](https://translate.yandex.com/developers/keys)
 
+## 安装方式
 
+[应用市场旧版2.0.5版本](https://chrome.google.com/webstore/detail/udemy-translate/dechpgocmbnibandhfdpkmfkogmlnbkp?hl=en-US)
 
-## Install
-Step1:
+或者下面方式，Edge 支持
 
-Download this file and unzip it.
+步骤 1:
 
-![Download](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/download.png)
+[从这里下压缩文件，并得到解压文件夹](https://github.com/ChenYCL/chrome-extension-udemy-translate/releases)
 
-or  open Cmder input  `git clone https://github.com/ChenYCL/chrome-extension-udemy-translate.git`
+打开你的谷歌或者 Edge 新版浏览器
 
-then open your Chrome browser
+![第一步](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/example/step1.png)
 
-![Step1](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/step1.png)
+步骤 2:
+开启开发者模式
+![第二步](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/example/step2.png)
 
-Step2:
+效果如下
 
-![Step2](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/step2.png)
+![Show](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/example/show.png)
 
-Step3:
+![Show](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/example/netflix.png)
 
-![Step3](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/step3.png)
+![Show](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/example/lynda.png)
 
-Step:4:
+![Show](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/example/hulu.jpg)
 
-Open [Udemy](https://www.udemy.com/mern-stack-front-to-back/)
+## 版本
 
-Step5:
+v2.0.8
 
-![Step4](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/step4.png)
+## 功能点
 
-Now,It works
+- [x] 基本翻译
 
-![Show](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/show.png)
+- [x] Netflix 视频支持
 
-![Show](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/netflix.png)
+- [x] Lynda 视频支持
 
-![Show](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/lynda.png)
+- [x] Hbo now 视频支持
 
-![Show](https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/master/media/hulu.jpg)
+- [x] Hulu 视频支持
 
-## Version
+- [x] Amazon 视频支持
 
-v1.13 
+- [x] Disneyplus 视频支持
 
-## Features
+- [x] Yandex 翻译接口接入
 
-- [x] Basic function
+- [x] 有道智云接口接入
 
-- [x] netflix video support
+- [x] 百度翻译接口接入
 
-- [x] lynda video support
+- [x] 控制面板
 
-- [x] HBO NOW video support
+- [x] 双字幕
 
-- [x] HULU video support
+- [x] 谷歌翻译 (200 次/小时)
 
-- [x] Amazon video support
-
-- [x] Yandex translate Api support
-
-- [x] Youdao Cloud Api support
-
-- [x] Baidu Api Support
-
-- [x] Config panel
-
-- [x] Double subtitle
-
-- [ ] Google Translate Api
-
-- [ ] Multi-language support
+- [x] 多语言支持
 
 - [x] ICON
 
-# PS：
+# 欢迎关注公众号
 
-if you choose Yandex,you only need fill id.
+有相关的插件使用教程，关注回复 '翻译工具' 即可获取，关注回复'工具下载'获取最新版本，同时定期分享值得观看的音视频资讯
 
+  <img  src="https://raw.githubusercontent.com/ChenYCL/chrome-extension-udemy-translate/master/example/qrcode.BMP" alt="" height="148" width="148" />
 
-# Why
+# 打赏专线 ☕️
 
-Better UnderStand
+### 支付宝
 
-# License
+  <img  src="https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/v2.0.0/example/alipay.JPG" alt="" height="148" width="148" />
 
-MIT
+### 微信
+
+  <img  src="https://github.com/ChenYCL/chrome-extension-udemy-translate/raw/v2.0.0/example/wechat.JPG" alt="" height="148" width="148" />
+
+# 代码贡献
+
+欢迎提交！只需发送 PR 以获得修复和文档更新，并预先打开新功能的问题。确保测试通过，并且覆盖率保持较高。谢谢
